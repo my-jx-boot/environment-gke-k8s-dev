@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cloudcontributor
+    provider: github
+    repository: mynewrepo
+  name: cloudcontributor-mynewrepo
+spec:
+  description: Imported application for cloudcontributor/mynewrepo
+  httpCloneURL: https://github.com/cloudcontributor/mynewrepo.git
+  org: cloudcontributor
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: mynewrepo
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cloudcontributor/mynewrepo.git

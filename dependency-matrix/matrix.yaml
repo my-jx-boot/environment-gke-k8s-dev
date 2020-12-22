@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: cloudcontributor
+  repo: mynewrepo
+  url: https://github.com/cloudcontributor/mynewrepo.git
+  version: ""
+  versionURL: ""
