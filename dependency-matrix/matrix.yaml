@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: cloudcontributor
+  repo: enviornmentapp
+  url: https://github.com/cloudcontributor/enviornmentapp.git
+  version: ""
+  versionURL: ""
