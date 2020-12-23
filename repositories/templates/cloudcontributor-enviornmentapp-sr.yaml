@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cloudcontributor
+    provider: github
+    repository: enviornmentapp
+  name: cloudcontributor-enviornmentapp
+spec:
+  description: Imported application for cloudcontributor/enviornmentapp
+  httpCloneURL: https://github.com/cloudcontributor/enviornmentapp.git
+  org: cloudcontributor
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: enviornmentapp
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cloudcontributor/enviornmentapp.git
